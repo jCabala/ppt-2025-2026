@@ -1,0 +1,26 @@
+cabal-version:      3.0
+-- WARNING: YOU MUST NOT UNDER ANY CIRCUMSTANCES EDIT THIS FILE, YOU HAVE BEEN WARNED
+name:               compress
+version:            0.1.0.0
+synopsis:           Haskell Interim Test 25/26
+author:             Imperial College London
+maintainer:         j.willis19@imperial.ac.uk
+build-type:         Simple
+
+library
+    exposed-modules:  Compress, Data.Bag, Data.HTree, Examples
+    hs-source-dirs:   src
+    default-language: GHC2021
+    build-depends:    base >=4.13 && <5,
+                      containers
+
+test-suite compress-test
+    type:             exitcode-stdio-1.0
+    hs-source-dirs:   test
+    default-language: GHC2021
+    other-modules:    IC.TestSuite
+    main-is:          Tests.hs
+    ghc-options:      -threaded
+    build-depends:    compress,
+                      containers,
+                      base >=4.13 && <5

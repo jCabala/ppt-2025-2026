@@ -1,0 +1,21 @@
+Test suite compress-test: RUNNING...
+freqCount: 2 / 2
+
+merge: 2 / 2
+
+Bag.insert: 3 / 3
+
+Bag.fromList: 2 / 2
+
+occurrences: 1 / 1
+
+reduce: 3 / 3
+
+buildTree: 4 / 4
+
+encode: 4 / 4
+
+decode: 3 / 3
+
+Test suite compress-test: PASS
+Test suite logged to: /home/jcabala/ppt/Haskell/haskell_interim/dist-newstyle/build/x86_64-linux/ghc-9.4.7/compress-0.1.0.0/t/compress-test/test/compress-0.1.0.0-compress-test.log
